@@ -257,5 +257,3 @@
       }
       ```
     - **Important:** Use `nested` when the inner class does not need outer instance state.
-
-````
