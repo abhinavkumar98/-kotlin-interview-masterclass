@@ -101,6 +101,7 @@ Every topic includes:
 ---
 
 ## 07. Coroutines
+- Coroutine Fundamentals(like what is Coroutine)
 - Coroutine Builders
 - Dispatchers
 - CoroutineScope
