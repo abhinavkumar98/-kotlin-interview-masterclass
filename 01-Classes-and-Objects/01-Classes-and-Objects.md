@@ -1,6 +1,3 @@
-````markdown
-# 01. Classes & Objects — Questions & Answers
-
 1. **What is a class in Kotlin and how does it differ from a Java class?**
    - A Kotlin class is a blueprint for objects and can declare properties, methods, constructors, and nested types.
    - **Important:** Kotlin classes are final by default, so you must use `open` to allow inheritance.
