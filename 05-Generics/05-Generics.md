@@ -1,6 +1,3 @@
-````markdown
-# 05. Generics — Questions & Answers
-
 1. **What are generics in Kotlin and why use them?**
    - Generics let you write type-safe, reusable code that works with different types without casting.
    - Example: `class Box<T>(val value: T)` allows `Box<String>` and `Box<Int>`.
@@ -69,5 +66,3 @@
 
 16. **Interview follow-ups**
     - Ask to implement a small type-safe collection with `in`/`out` constraints, or to refactor Java code with raw types to Kotlin generics.
-
-````

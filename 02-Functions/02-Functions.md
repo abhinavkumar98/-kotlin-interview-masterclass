@@ -1,6 +1,3 @@
-````markdown
-# 02. Functions — Questions & Answers
-
 1. **What is a higher-order function?**
    - A higher-order function either takes functions as parameters or returns a function.
    - Use cases: callbacks, function composition, DSLs, and combinators.
@@ -148,5 +145,3 @@
     - Pitfall: overusing `inline`, causing bytecode bloat.
     - Pitfall: expecting extension functions to be virtual—dispatch is static.
     - Follow-ups: show how `crossinline` prevents non-local returns, demonstrate `reified` use-cases, or implement a small DSL using infix/extension functions.
-
-````

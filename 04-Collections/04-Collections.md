@@ -1,6 +1,3 @@
-````markdown
-# 04. Collections — Questions & Answers
-
 1. **List vs MutableList — what's the difference?**
    - `List` is read-only (immutable view) while `MutableList` supports mutation (`add`, `remove`).
    - Use `List` in APIs to expose immutability and `MutableList` for internal mutable state.
@@ -77,5 +74,3 @@
 16. **Interview follow-ups and exercises**
     - Implement `chunked` or `windowed` manually using indices.
     - Compare performance between `map().filter()` and the same pipeline using `Sequence` with benchmarks.
-
-````

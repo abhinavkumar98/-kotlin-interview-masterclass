@@ -1,6 +1,3 @@
-````markdown
-# 03. Null Safety — Questions & Answers
-
 1. **What are nullable types in Kotlin and how do you declare them?**
    - A nullable type is declared by appending `?` to the type: `String?`.
    - Variables of nullable types can hold `null`; non-nullable types cannot.
@@ -92,5 +89,3 @@
     - Ask to refactor code to avoid `!!`.
     - Demonstrate `lateinit` vs `lazy` with thread-safety considerations.
     - Show wrapping nullable results in a `Result` or sealed type for explicit handling.
-
-````

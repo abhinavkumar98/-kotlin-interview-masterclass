@@ -1,6 +1,3 @@
-````markdown
-# 06. Delegation — Questions & Answers
-
 1. **What is delegation in Kotlin and why is it useful?**
    - Delegation is a design pattern where an object hands off responsibility for a task to another object (the delegate).
    - Kotlin provides first-class support for delegation with `by` for class and property delegation, enabling composition over inheritance.
@@ -81,5 +78,3 @@
     - Keep delegates small and single-responsibility.
     - Avoid sharing mutable delegates unless intentionally coordinating state.
     - Prefer `val` delegates for cached computed values.
-
-````

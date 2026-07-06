@@ -1,6 +1,3 @@
-````markdown
-# 07. Coroutines — Questions & Answers
-
 1. **What is a coroutine in Kotlin?**
    - A coroutine is a lightweight, suspendable computation. It enables asynchronous and non-blocking code using `suspend` functions and coroutine builders.
    - Coroutines are scheduled by `CoroutineDispatcher` and run inside a `CoroutineScope`.
@@ -184,4 +181,3 @@
     - Prefer message-passing (channels/actors) to reduce shared mutable state.
     - Use `Dispatchers.IO` for blocking I/O and `Dispatchers.Default` for CPU work.
     - Keep coroutine lifecycles tied to scopes that represent component lifetimes (UI, service, etc.).
-````
